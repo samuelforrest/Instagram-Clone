@@ -1,5 +1,6 @@
 import { Link } from 'expo-router';
+import { Redirect } from 'expo-router';
 
 export default function Home() {
-  return <Link href="/about">About Us Page</Link>;
+  return <Redirect href="/(tabs)" />;
 }
