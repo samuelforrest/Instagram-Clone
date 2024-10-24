@@ -1,7 +1,5 @@
-import { Text } from 'react-native';
+import { Link } from 'expo-router';
 
 export default function Home() {
-  return (
-    <Text>Hello World!</Text>
-  );
-};
+  return <Link href="/about">About Us Page</Link>;
+}
